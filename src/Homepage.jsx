@@ -1,12 +1,14 @@
 import * as React from 'react';
 import { Link } from 'react-router-dom';
+import Header from './Templates/Header';
+import Footer from './Templates/Footer';
 
 function Homepage() {
   return (
     <>
-      <nav>
-        <Link to="/Loginpage">Loginpage</Link>
-      </nav>
+      <Header />
+      <div className="Maincomponent"></div>
+      <Footer />
     </>
   );
 }
