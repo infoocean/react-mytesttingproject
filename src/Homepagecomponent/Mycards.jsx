@@ -1,5 +1,5 @@
 import * as React from 'react';
-import MYmoviedata from './Homepagecomponent/Moviedata';
+import MYmoviedata from './Moviedata';
 import { styled } from '@mui/material/styles';
 import Card from '@mui/material/Card';
 import CardHeader from '@mui/material/CardHeader';
@@ -17,7 +17,11 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 
 export default function MovieCarddesign1() {
+
+  
+
   return (
+     
     <Card sx={{ maxWidth: 345 }}>
       <CardHeader
         avatar={
