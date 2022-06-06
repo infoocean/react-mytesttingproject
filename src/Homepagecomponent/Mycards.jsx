@@ -17,11 +17,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 
 export default function MovieCarddesign1() {
-
-  
-
   return (
-     
     <Card sx={{ maxWidth: 345 }}>
       <CardHeader
         avatar={
